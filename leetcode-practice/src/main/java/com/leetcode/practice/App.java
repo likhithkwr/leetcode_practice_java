@@ -24,7 +24,7 @@ public class App {
             }
         }
     }
-
+ 
     private static void addProblem() {
         System.out.print("Title: ");
         String title = scanner.nextLine();
