@@ -7,7 +7,7 @@ public class ContainsDuplicate {
 
     public boolean containsDuplicate(int[] nums) {
     	HashSet<Integer> seen = new HashSet<>(nums.length);
-        for (int num: nums) {
+        for (int num: nums) { 
             if (seen.contains(num)) return true;
             seen.add(num);
         }
