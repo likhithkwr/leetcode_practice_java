@@ -9,8 +9,6 @@ public class TwoSum {
 		
 		HashMap<Integer, Integer> numsMap = new HashMap<>(nums.length);
 		
-		
-		
 		for (int i=0; i < nums.length; i++) {
 			int subtractedValue = target - nums[i];
 			

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+// problem 4 Leetcode 49
+
 public class GroupAnagrams {
 	
 	public ArrayList<ArrayList<String>> groupAnagrams(String[] strs) {
